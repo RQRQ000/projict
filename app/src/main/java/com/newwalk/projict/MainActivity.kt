@@ -9,10 +9,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.menu)
     }
     fun button(view: View){
-        var intent = Intent(this,Main2Activity::class.java)//cоздали intent
+        var intent = Intent(this,spravoshnic::class.java)//cоздали intent
         startActivity(intent)//запускаем intent
     }
     fun button0(view: View){
